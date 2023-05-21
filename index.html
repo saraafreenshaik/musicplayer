@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5h5.2.1/css/all.min.css"
+    integrity="sha512-mv7k8+y+gLIBoVD59lQIYicR5h55iaqukzvf/nwasF0nqhPay5w/9ljmVM2hMDcnk10nMGCdvk+iQrJ7lzPJQd1w==" crossorigin="anonymous">-->
+    <title>Music  Player</title> 
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/b2a7ad23f4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <i class="fas fa-bars menu-btn"></i>
+            <i class="fas fa-search"></i>
+        </div>
+    
+    <div class="cover-image"></div>
+    <div class="player-body"></div>
+
+
+    <div class="list-wrapper">
+        <table class="list" id="playlist">
+            <tr class="song">
+                <td class="no">
+                    <h5>1</h5>
+                </td>
+                <td class="title">
+                    <h6>Haule Haule</h6>
+                </td>
+                <td class="length">
+                    <h5>4:25</h5>
+                </td>
+                <td>
+                    <i class="fas fa-heart"></i>
+                </td>
+            </tr>
+            <tr class="song">
+                <td class="no">
+                    <h5>2</h5>
+                </td>
+                <td class="title">
+                    <h6>YeIshq</h6>
+                </td>
+                <td class="length">
+                    <h5>4:42</h5>
+                </td>
+                <td>
+                    <i class="fas fa-heart"></i>
+                </td>
+            </tr>
+            <tr class="song">
+                <td class="no">
+                    <h5>3</h5>
+                </td>
+                <td class="title">
+                    <h6>Maan Mare Jaan</h6>
+                </td>
+                <td class="length">
+                    <h5>3:14</h5>
+                </td>
+                <td>
+                    <i class="fas fa-heart"></i>
+                </td>
+            </tr>
+            <tr class="song">
+                <td class="no">
+                    <h5>4</h5>
+                </td>
+                <td class="title">
+                    <h6>Jhommbe</h6>
+                </td>
+                <td class="length">
+                    <h5>3:28</h5>
+                </td>
+                <td>
+                    <i class="fas fa-heart"></i>
+                </td>
+            </tr>
+            <tr class="song">
+                <td class="no">
+                    <h5>1</h5>
+                </td>
+                <td class="title">
+                    <h6>song Title </h6>
+                </td>
+                <td class="length">
+                    <h5>2:03</h5>
+                </td>
+                <td>
+                    <i class="fas fa-heart"></i>
+                </td>
+            </tr> 
+            <tr class="song">
+                <td class="no">
+                    <h5>1</h5>
+                </td>
+                <td class="title">
+                    <h6>song Title </h6>
+                </td>
+                <td class="length">
+                    <h5>2:03</h5>
+                </td>
+                <td>
+                    <i class="fas fa-heart"></i>
+                </td>
+            </tr>  
+        </table>
+    </div>
+    <div class="bar">
+        <div class="dot"></div>
+        <div class="time">
+            <h5 class="current-time">0:00</h5>
+            <h5 class="duration">0:00</h5>
+
+        </div>
+    </div>
+    <div class="info">
+        <h2>song title</h2>
+        <h3>artist</h3>
+    </div>
+
+        <div class="controls">
+            <div><i class="fas fa-backward" id="prev"></i></div>
+            <div> <i class="fas fa-play" id="playpause"></i></div>
+            <div> <i class="fas fa-forward" id="next"></i></div>
+        </div>
+<div class="more-controls">
+    <i class="fas fa-heart" id="current-favourite"></i>
+    <i class="fas fa-random" id="shuffle"></i>
+    <i class="fas fa-repeat" id="repeat"></i>
+    <i class="fas fa-gear" id="options"></i>
+</div>
+
+
+    </div>
+    <p class="current-song-title"> song title</p>
+
+</div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
